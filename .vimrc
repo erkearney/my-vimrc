@@ -13,7 +13,6 @@ endif
 
 " ======== Indentation =======
 set autoindent                      " Copy indenation from previous line
-"set smartindent                     " Automatically inserts one extra indentation in special cases
 set shiftwidth=4                    " Set the number of spaces when using >> or <<
 set tabstop=4                       " Set the width of TAB to 4
 set expandtab                       " TABs are spaces
