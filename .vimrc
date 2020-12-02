@@ -24,6 +24,3 @@ set incsearch                       " Find the next match as we type
 set hlsearch                        " Highlight searches by default
 set ignorecase                      " Ignore case while searching...
 set smartcase                       " ... unless we type a captial
-
-" This is literally a change I'm making so I can make a commit for today
-" to push up my Github statsitics
