@@ -21,6 +21,8 @@ font pango:monospace 8
 
 # Configure gaps
 gaps inner 20
+# Hide title bars, make borders thicker
+for_window [class=^.*] border pixel 3
 
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
