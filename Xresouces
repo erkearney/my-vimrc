@@ -5,3 +5,4 @@ XTerm.vt100.font: 7x13
 XTerm*vt100.Translations: #override \
     Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
     Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+test

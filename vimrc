@@ -4,6 +4,7 @@ set nocompatible                    " Disable vi compatibility
 set number                          " Always show line numbers
 set backspace=indent,eol,start      " Allow backspace in insert mode
 set showmode                        " Always show the mode
+set clipboard=unnamedplus           " Use the system clipboard by default
 
 syntax on                           " Enable syntax highlighting
 
