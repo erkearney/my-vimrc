@@ -1,0 +1,8 @@
+Xterm.termName: xterm=256color
+XTerm.vt100.utf8: true
+XTerm.vt100.faceName: Inconsolata:size=14:antialias=false
+XTerm.vt100.font: 7x13
+XTerm*vt100.Translations: #override \
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+test
