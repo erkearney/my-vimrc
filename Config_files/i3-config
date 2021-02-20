@@ -41,6 +41,10 @@ exec --no-startup-id i3-msg 'workspace 2:email; exec /usr/bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace 2:email; exec /usr/bin/protonmail-bridge'
 exec --no-startup-id i3-msg 'workspace 1:signal; exec /usr/bin/signal-desktop-beta'
 
+# Use xbacklight to adjust screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
