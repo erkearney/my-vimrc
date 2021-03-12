@@ -37,8 +37,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Set startup windows on login
-exec --no-startup-id i3-msg 'workspace 2:email; exec /usr/bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace 2:email; exec /usr/bin/protonmail-bridge'
+exec --no-startup-id i3-msg 'workspace 2:email; exec /usr/bin/sleep 60 && /usr/bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace 1:signal; exec /usr/bin/signal-desktop-beta'
 
 # Use xbacklight to adjust screen brightness
@@ -199,3 +199,5 @@ bindsym $mod+r exec firefox
 bar {
         status_command i3status
 }
+
+exec --no-startu-id dockd --daemon
