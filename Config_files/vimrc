@@ -22,13 +22,13 @@ set ignorecase                      " Ignore case while searching...
 set smartcase                       " ... unless we type a captial
 
 " =========== PEP8 ===========
-au Bufread,BufNewFile *py, *pyw set expandtab       " TABs are spaces
-au Bufread,BufNewFile *py, *pyw set tabstop=4       " Set the width of TAB to 4
+au Bufread,BufNewFile *py,*pyw set expandtab       " TABs are spaces
+au Bufread,BufNewFile *py,*pyw set tabstop=4       " Set the width of TAB to 4
 highlight BadWhiteSpace ctermbg=red guibg=red       " Highlight bad whitespace
 " Highlight tabs at the beginning of a line, and trailing whitespace as bad
-au Bufread,BufNewFile *py, *pyw match BadWhiteSpace /^\t\+/
-au Bufread,BufNewFile *py, *pyw match BadWhiteSpace /\s\+$/
+au Bufread,BufNewFile *py,*pyw match BadWhiteSpace /^\t\+/
+au Bufread,BufNewFile *py,*pyw match BadWhiteSpace /\s\+$/
 " Use UNIX (\n) line endings
-au Bufread,BufNewFile *py, *pyw set fileformat=unix 
+au Bufread,BufNewFile *py,*pyw set fileformat=unix 
 " For full syntax highlighting
 let python_highlight_all=1                          
